@@ -3,14 +3,14 @@ font-family: 'Playfair Display', serif;
 }
 p, .btn {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
  padding: 20px;
   
 }
 .hero {
     background-color: sandybrown;
     text-align: center;
-    margin:300px;
+    margin:300px 300px 0px 300px;
 }
 h2 {
     font-size: 30px;
@@ -22,4 +22,11 @@ h1 {
     margin-bottom: 40px;
   margin-top: 40px;
 
+}
+#lamb-button {
+    display: block;
+    margin: 60px 600px;
+}
+img {
+    max-width: 650px;
 }
