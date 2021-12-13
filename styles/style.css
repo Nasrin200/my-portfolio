@@ -10,7 +10,9 @@ p, .btn {
 .hero {
     background-color: sandybrown;
     text-align: center;
-    margin:300px 300px 0px 300px;
+
+   
+
 }
 h2 {
     font-size: 30px;
@@ -25,8 +27,26 @@ h1 {
 }
 #lamb-button {
     display: block;
-    margin: 60px 600px;
+padding:10px 20px;
 }
 img {
     max-width: 650px;
+}
+@media (max-width: 900px) {
+    .container {
+padding: 0px;
+text-align: center;
+    }
+    .container h2 {
+        padding: 0px;
+        font-size: 25px ;
+    }
+    .hero h1 {
+        padding: 0px;
+        font-size: 30px ;
+    }
+    .hero h2 {
+        padding: 0px;
+        font-size: 20px
+    }
 }
