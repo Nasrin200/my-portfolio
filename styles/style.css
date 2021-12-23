@@ -11,7 +11,7 @@ p, .btn {
     background-color: sandybrown;
     text-align: center;
 
-   
+
 
 }
 h2 {
@@ -31,6 +31,7 @@ padding:10px 20px;
 }
 img {
     max-width: 650px;
+    border-radius: 10px;
 }
 @media (max-width: 900px) {
     .container {
@@ -49,4 +50,20 @@ text-align: center;
         padding: 0px;
         font-size: 20px
     }
+}
+.about-hero {
+margin-top: 40px;
+margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-hero h2 {
+margin-bottom: 20px;
+    font-size: 22px;
+}
+.about-hero h1 {
+    font-size: 35px;
+}
+.about-content {
+    margin: 30px;
 }
