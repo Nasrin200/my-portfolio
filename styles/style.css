@@ -1,3 +1,33 @@
+nav {
+    padding: 20px,0px;
+
+}
+
+nav li {
+    display: inline;
+    line-height: 90px;
+   margin-left: 10px;
+}
+nav a{
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+transition: all 90ms ease-in-out;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+    
+#nasrin {
+    margin-top: 10px;
+}
+ 
+nav a :hover,
+nav li.active a {
+    color: blue;
+}
 h1,h2 {
 font-family: 'Playfair Display', serif;
 }
